@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: grid;
+            width: 650px;
+            height: 600px;
+            border: 10px solid skyblue;
+
+            /* 1.grid-template-columns: 100px 100px 100px;  等价于 */
+            /* 2.grid-template-columns: repeat(3,100px); */
+
+            /* 3.grid-template-columns: repeat(auto-fill, 100px); */
+
+            /* 4.grid-template-columns: repeat(3,1fr); 等价于下面那个*/
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: 1fr 2fr 3fr; */
+
+            /* grid-template-columns: 1fr minmax(550px,1fr); */
+
+            /* grid-template-columns: 100px auto 100px; */
+
+            /* 三列 四条线 */
+            grid-template-columns: [c1] 100px [c2] 100px [c3] 100px [c4];
+            grid-template-rows: 100px 100px 100px 100px;
+
+            /* 行间距 */
+            /* row-gap: 20px; */
+            /* 列间距 */
+            /* column-gap: 20px; */
+            gap: 20px 20px;
+
+            grid-template-areas: 'a a a' 'b b b' 'c c c';
+
+            /* grid-auto-flow: column; */
+            /* 对齐方式 */
+            /* justify-items: center;
+            align-items: center; */
+            /* justify-content: center;
+            align-content: center; */
+        }
+
+        .item {
+            font-size: 50px;
+            background-color: #2be6c3;
+            color: #fff;
+        }
+
+        .item-1 {
+            background-color: salmon;
+            /* grid-column-start: 1;
+               grid-column-end: 3; */
+               /* grid-column-start: span 2; */
+            grid-area: b;
+        }
+        .item-2 {
+            background-color: pink;
+            justify-self: center;
+        }
+        .item-3 {
+            background-color: blueviolet;
+        }
+        .item-4 {
+            background-color: hotpink;
+        }
+        .item-5 {
+            background-color: green;
+        }
+        .item-6 {
+            background-color: skyblue;
+        }
+        .item-7 {
+            background-color: olive;
+        }
+        .item-8 {
+            background-color: orange;
+        }
+        .item-9 {
+            background-color: orchid;
+        }
+        .item-10 {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-9">9</div>
+        <div class="item item-10">10</div>
+    </div>
+</body>
+</html>

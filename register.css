@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #666666;
+}
+a:hover {
+    color: salmon;
+}
+ul {
+    list-style: none;
+}
+input {
+    outline: none;
+    border: 0;
+}
+
+/* nav */
+.nav2 {
+    width: 100%;
+    background-color: #eee;
+}
+.nav-bd {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    margin: 0 auto;
+    height: 35px;
+    width: 1190px;
+    line-height: 35px;
+
+    /* 字体 */
+    font-size: 12px;
+    color: #3c3c3c;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+.nav-bd .nav-ul-1 {
+    display: flex;
+}
+
+.nav-bd .nav-ul-1 li {
+    margin-left: 15px;
+}
+.nav-bd .nav-ul-1 .color a {
+    color: salmon;
+}
+
+.nav-bd .nav-ul-2 {
+    display: flex;
+}
+
+.nav-bd .nav-ul-2 li {
+    margin-left: 15px;
+}
+
+/* 下拉菜单 */
+.nav-ul-2 .tb {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 80px;
+    border: 0;
+    display: none;
+    background-color: #fff;
+
+    min-width: 100px;
+}
+.nav-ul-2 .my:hover .tb {
+    display: block;
+}
+
+.nav-ul-2 .collect {
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 180px;
+    border: 0;
+    display: none;
+    background-color: #fff;
+}
+
+.nav-ul-2 .collect a {
+    display: block;
+}
+.nav-ul-2 .collector:hover .collect {
+    display: block;
+}
+
+/* content */
+.content-2 {
+    width: 1190px;
+    height: 500px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.content-2 img {
+    vertical-align: middle;
+}
+.content-2 .user-register {
+    font-size: 22px;
+}
+
+.content2-center {
+    width: 435px;
+    height: 350px;
+    margin: 180px auto;
+
+    /* 字体 */
+    font-size: 14px;
+    color: #111111;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+
+
+.content2-center input {
+    margin-left: 10px;
+    width: 320px;
+    height: 38px;
+    border: 1px solid #11111121;
+    border-radius: 5px;
+
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+.content2-center .veri-code {
+    padding-left: 16px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.content2-center .veri-code input {
+    width: 310px;
+    padding-left: 10px;
+}
+
+.content2-center .phonenum input {
+    width: 195px;
+    height: 38px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.content2-center .phonenum select {
+    height: 38px;
+    margin-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+}
+
+.content2-center .btn-register {
+    display: block;
+    width: 320px;
+    height: 38px;
+    background-image: linear-gradient(90deg,rgb(235, 138, 82),#f26d30);
+    border: 0;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.content2-center .btn-register:hover {
+    background-image: linear-gradient(90deg,#f90,#ff5000);
+    color: #ff5000;
+}
+
+.content2-center .checkbox {
+    margin-left: 65px;
+}
+
+.content2-center .agree {
+    width: 17px;
+    height: 17px;
+    text-align: center;
+
+    /* 复选框和文字对齐 */
+    vertical-align: middle;
+}
+
+.content2-center .agree1 {
+    line-height: 25px;
+}
+
+.content2-center .agree1 a {
+    color: #f90;
+}
+
+.content2-center .enter {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.content2-center .enter a {
+    color: #f90;
+}
+
+/* banner */
+.banner {
+    width: 1190px;
+    height: 400px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.banner-1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.banner-1 li {
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    color: #333333;
+}
+.banner a:hover {
+    color: #111111;
+    text-decoration: underline;
+}
+
+.banner-2,.banner-3 {
+    display: flex;
+    font-size: 14px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.banner-2 li {
+    margin-right: 10px;
+}
+.banner-3 {
+    display: flex;
+}
+.banner-3 li {
+    margin-right: 10px;
+}

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝网 - 淘！我喜欢</title>
+
+    <!-- 标题上的图标 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* 字体声明 */
+        @font-face {
+            font-family: 'icomoon';
+            src:  url('fonts/icomoon.eot?z9eh57');
+            src:  url('fonts/icomoon.eot?z9eh57#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?z9eh57') format('truetype'),
+                url('fonts/icomoon.woff?z9eh57') format('woff'),
+                url('fonts/icomoon.svg?z9eh57#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+        .star {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif,'icomoon';
+            color: salmon;
+            line-height: 35px;
+            margin: 0px 10px;
+        }
+        .car {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif,'icomoon';
+            color: salmon;
+            margin-right: 5px;
+        }
+        .li-1 {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif,'icomoon';
+            line-height: 35px;
+            margin-right: 7px;
+        }
+        .my, .search-left {
+            font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif,'icomoon';
+        }
+    </style>
+</head>
+<body>
+    <!-- 侧边栏 -->
+    <div class="fixed">
+        <a class="fixed-1" href="#">
+            <span class="fixed-icon"></span>
+            <span>消息</span>
+        </a>
+        <a class="fixed-1" href="#">
+            <span class="fixed-icon"></span>
+            <span>官方客服</span>
+        </a>
+        <a class="fixed-1" href="#">
+            <span class="fixed-icon"></span>
+            <span>反馈</span>
+        </a>
+        <a class="fixed-1" href="#">
+            <span class="fixed-icon"></span>
+            <span>举报</span>
+        </a>
+        <a class="fixed-1" href="#">
+            <span class="fixed-icon"></span>
+            <span>回顶部</span>
+        </a>
+    </div>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="nav-bd">
+            <ul class="nav-ul-1">
+                <li class="li-1">
+                    中国大陆 
+                    <textarea class="li-1-content">
+                        全球
+                        中国大陆
+                        中国香港
+                        中国台湾
+                        中国澳门
+                        韩国
+                        马来西亚
+                        澳大利亚
+                        新加坡
+                        新西兰
+                        加拿大
+                        日本
+                        越南
+                    </textarea>
+                </li>
+                <li class="color">
+                    <a href="#">亲，请登录</a>
+                </li>
+                <li><a href="#">手机逛淘宝</a></li>
+                <li><a href="#">网页无障碍</a></li>
+            </ul>
+
+            <ul class="nav-ul-2">
+                <li>
+                    <div class="my">
+                        <a href="#">我的淘宝 </a>
+                        <textarea class="tb">
+                            已买到的宝贝
+                            我的足迹
+                        </textarea>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="car"></span>
+                        <span>购物车</span>
+                    </a>
+                </li>
+                <li class="collector">
+                    <a href="#">
+                        <span class="star"></span>
+                        <span>收藏夹</span>
+                        <span class="li-1"></span>
+                        <textarea class="collect">
+                            收藏的宝贝
+                            收藏的店铺
+                        </textarea>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">商品分类 免费开店</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a class="li-1" href="#">千牛卖家中心 </a>
+                    <span></span>
+                </li>
+                <li class="collector">
+                    <a href="#">联系客服 </a>
+                    <span class="li-1"></span>
+                    <div class="collect">
+                        <a href="#">联系客服</a> 
+                        <a href="#">消费者客服</a> 
+                        <a href="#">卖家客服</a> 
+                        <a href="#">意见反馈</a> 
+                        <a href="#">网页版旺旺</a> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <a href="index.html">
+                <img src="images/taobao.png" alt="">
+            </a>
+            <div class="search">
+                <div class="search-1">
+                    <div class="search-left">
+                        宝贝  <span>|</span>
+                    </div>
+                    <input class="search-center" value="毛绒玩具">
+                    </input>
+                    <a class="search-right" href="#">
+                        搜索
+                    </a>
+                </div>
+                <ul class="search-2">
+                    <li>
+                        <a href="#">新款连衣裙</a>
+                    </li>
+                    <li>
+                        <a href="#">四件套</a>
+                    </li>
+                    <li>
+                        <a href="#">T恤</a>
+                    </li>
+                    <li>
+                        <a href="#">时尚</a>
+                    </li>
+                    <li>
+                        <a href="#">裤子</a>
+                    </li>
+                    <li>
+                        <a href="#">裙子</a>
+                    </li>
+                    <li>
+                        <a href="#">外套</a>
+                    </li>
+                    <li>
+                        <a href="#">行车记录仪</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="download">
+                <a href="#">
+                    <div class="wenzi">下载淘宝</div>
+                    <div class="tupian"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="content">
+        <div class="content-head">
+            <div class="content-head-left">
+                <div class="sort">分类</div>
+                <ul>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                    <li>
+                        <span class="sort-icon"></span>
+                        <a href="#">女装</a>
+                        <span> / </span>
+                        <a href="#">衣服</a>
+                        <span> / </span>
+                        <a href="#">奢品</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-head-right"> 
+                <div class="content-top">
+                    <ul>
+                        <li>
+                            <a href="#">天猫</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">聚划算</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">天猫超市</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">司法拍卖</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">飞猪旅行</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">天天特卖</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">极有家</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="#">淘宝直播</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-center">
+
+                    <!-- 轮播图 -->
+                    <div class="content-center-1">
+                        <img src="images/lb.jpg" alt="">
+
+                        <!-- 左侧按钮 -->
+                        <a href="#" class="prev"> &lt; </a>
+                        <!-- 右侧按钮 -->
+                        <a href="#" class="next"> &gt; </a>
+                        <!-- 小圆点 -->
+                        <ul class="promo-nav">
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <!-- 右侧登录注册 -->
+                    <div class="content-center-2">
+                        <img src="images/tb.jpg" alt="">
+                        <h4>Hi! 你好</h4>
+                        <div class="btn">
+                            <a href="login.html">登录</a>
+                            <a href="register.html">注册</a>
+                            <a href="#">开店</a>
+                        </div>
+                        <div class="user-mytao">
+                            <a href="#">
+                                <span></span>
+                                <p>宝贝收藏</p>
+                            </a>
+                            <a href="#">
+                                <span></span>
+                                <p>宝贝收藏</p>
+                            </a>
+                            <a href="#">
+                                <span></span>
+                                <p>宝贝收藏</p>
+                            </a>
+                            <a href="#">
+                                <span></span>
+                                <p>宝贝收藏</p>
+                            </a>
+                        
+                        </div>
+                        <a class="tip" href="#">
+                            <div class="hot">热点</div>
+                            <span>淘宝网疫情影响地区发货时间要求调整公告</span>
+                        </a>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <div class="content-recommend">
+            <div class="recommend-top">
+                <span class="title">猜你喜欢</span>
+                <span class="recommend">
+                    <img src="images/recommend.png" alt="">
+                </span>
+            </div>
+
+            <div class="recommend-center">
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+                <a class="shopping-1" href="#">
+                    <div class="img-wrapper">
+                        <img src="images/shopping.webp" alt="">
+                    </div>
+                    <div class="info-wrapper">
+                        <div class="intr">
+                            <img src="images/38.png" alt="">
+                            50卷无芯卷纸卫生纸家用实惠装厕所厕纸卷筒纸擦手纸巾整箱装批发
+                        </div>
+                        <div class="tag-list">
+                            送运费险
+                        </div>
+                        <span class="price">
+                            ¥ 4.01
+                        </span>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="banner">
+        <ul class="banner-1">
+            <li>
+                <a href="#">联系客服</a>
+            </li>
+            <li>
+                <a href="#">开放平台</a>
+            </li>
+            <li>
+                <a href="#">法律声明</a>
+            </li>
+            <li>
+                <a href="#">廉政举报</a>
+            </li>
+            <li>
+                Taobao.com版权所有 2003-现在
+            </li>
+            <li>
+                <a href="#">增值电信业务经营许可证：浙B2-20070195</a>
+            </li>
+            <li>
+                <a href="#">浙公网安备 33010002000075号</a>
+            </li>
+        </ul>
+
+        <ul class="banner-2">
+            <li>
+                <a href="#">阿里巴巴集团</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">淘宝网</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">天猫</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">聚划算</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">全球速卖通</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">阿里巴巴国际交易市场</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">1688</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">阿里妈妈</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">飞猪</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">阿里云计算</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">AliOS</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">阿里通信</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">高德</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">UC</a>
+            </li>
+        </ul>
+
+        <ul class="banner-3">
+            <li>
+                <a href="#">友盟</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">虾米</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">钉钉</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">支付宝</a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#">达摩院</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
